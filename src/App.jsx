@@ -1,7 +1,14 @@
-import Layout from "./Pages/Layout";
+import { lazy, Suspense } from "react";
+import Loader from "./components/Loader";
 
 function App() {
-  return <Layout />;
+  const Home = lazy(() => import("./Pages/Layout"));
+
+  return (
+    <Suspense fallback={<Loader />}>
+      <Home />
+    </Suspense>
+  );
 }
 
 export default App;
