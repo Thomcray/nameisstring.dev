@@ -5,7 +5,7 @@ function Experience() {
   return (
     <Box
       w={{ base: "full", md: "full", xl: "80%" }}
-      h="400px"
+      h="550px"
       as="section"
       id="experience"
       px={{ base: 2, md: 10, xl: 10 }}
