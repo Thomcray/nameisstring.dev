@@ -65,13 +65,14 @@ function Experience() {
                 <Timeline.Indicator
                   outline="1px solid"
                   outlineColor="blackAlpha.500"
+                  bg="whiteAlpha.800"
                 >
                   <Image
                     src={logo}
                     alt="company-logo"
-                    loading="lazy"
                     objectFit="cover"
                     borderRadius="full"
+                    loading="lazy"
                   />
                 </Timeline.Indicator>
               </Timeline.Connector>

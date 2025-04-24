@@ -40,9 +40,9 @@ function About() {
           <Image
             src={myPicture}
             alt="nameisstring-image"
-            loading="lazy"
             objectFit="cover"
             boxSize="100%"
+            loading="lazy"
           />
         </Box>
         <Box
