@@ -13,8 +13,8 @@ function MobileDrawer({ sections, location, handleChange }) {
       <Portal>
         <Drawer.Backdrop />
         <Drawer.Positioner>
-          <Drawer.Content>
-            <Drawer.Header bg="blackAlpha.800">
+          <Drawer.Content bg="blackAlpha.800">
+            <Drawer.Header>
               <Drawer.Title
                 fontFamily="Montserrat"
                 color="whiteAlpha.800"
@@ -39,7 +39,6 @@ function MobileDrawer({ sections, location, handleChange }) {
                   display="flex"
                   flexDirection="column"
                   key={section}
-                  border="1px solid #000"
                 >
                   <Link
                     display="flex"
