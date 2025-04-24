@@ -6,7 +6,7 @@ Welcome to my personal portfolio website built with **React** and **Vite**! This
 
 ## 🚀 Live Site
 
-👉 [View Portfolio](https://your-portfolio-url.com)
+👉 [View Portfolio](https://ternananev.vercel.app/)
 
 ---
 

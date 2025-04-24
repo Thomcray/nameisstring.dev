@@ -14,7 +14,7 @@ function MobileDrawer({ sections, location, handleChange }) {
         <Drawer.Backdrop />
         <Drawer.Positioner>
           <Drawer.Content>
-            <Drawer.Header>
+            <Drawer.Header bg="blackAlpha.800">
               <Drawer.Title
                 fontFamily="Montserrat"
                 color="whiteAlpha.800"
@@ -87,7 +87,7 @@ function MobileDrawer({ sections, location, handleChange }) {
                 rel="noopener noreferrer"
               >
                 <Icon>
-                  <FaGithub size={30} />
+                  <FaGithub size={30} color="white" />
                 </Icon>
               </Link>
             </Drawer.Footer>
