@@ -1,12 +1,30 @@
-# React + Vite
+# Terna Nanev - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React** and **Vite**! This site showcases my skills, experience, and projects as a frontend developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Site
 
-## Expanding the ESLint configuration
+👉 [View Portfolio](https://your-portfolio-url.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 Features
+
+- 🔥 Fast and modern stack (React + Vite)
+- 📱 Fully responsive layout
+- 💡 Smooth scrolling and section-based navigation
+- 🎨 Custom design with Figma-to-code workflow
+- 📷 Optimized images and icons
+- 📫 Contact form integration
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Chakra UI](https://chakra-ui.com/) or [Tailwind CSS](https://tailwindcss.com/) (whichever you used)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Formspree](https://www.emailjs.com/) (for contact form, if used)
