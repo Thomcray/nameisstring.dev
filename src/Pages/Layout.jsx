@@ -1,7 +1,7 @@
-import { Box } from "@chakra-ui/react";
 import { lazy } from "react";
-import Header from "@/components/Header/Header";
+import { Box } from "@chakra-ui/react";
 
+const Header = lazy(() => import("@/components/Header/Header"));
 const About = lazy(() => import("@/components/About"));
 const Projects = lazy(() => import("@/components/Projects"));
 const Experience = lazy(() => import("@/components/Experience"));
