@@ -27,4 +27,4 @@ Welcome to my personal portfolio website built with **React** and **Vite**! This
 - [Vite](https://vitejs.dev/)
 - [Chakra UI](https://chakra-ui.com/) or [Tailwind CSS](https://tailwindcss.com/) (whichever you used)
 - [React Icons](https://react-icons.github.io/react-icons/)
-- [Formspree](https://www.emailjs.com/) (for contact form, if used)
+- [Formspree](https://www.emailjs.com/) (for contact form)
