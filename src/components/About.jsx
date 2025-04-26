@@ -4,7 +4,7 @@ import myPicture from "@/assets/nameisstring.png";
 import Skills from "./Skills";
 
 const spin = keyframes`
-from {ntransform: rotate(0deg); }
+from {transform: rotate(0deg); }
 to { transform: rotate(360deg);b}
 `;
 function About() {
