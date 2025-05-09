@@ -47,8 +47,8 @@ function About() {
             borderWidth="4px"
             borderStyle="solid"
             borderColor="transparent"
-            borderRightColor="orange.500/40"
-            borderLeftColor="orange.500/40"
+            borderRightColor="green.800/40"
+            borderLeftColor="green.800/40"
             animation={`${spin} 5s linear infinite`}
             _hover={{
               transform: "scale(1.05)",
@@ -129,7 +129,7 @@ function About() {
             cursor="pointer"
           >
             Hi, I'm Terna Nanev, a Frontend Developer with over 3 years of
-            experience working with JavaScript and React.js. I'm passonate about
+            experience working with JavaScript and React.js. I'm passionate about
             building high-performance, scalable web applications, visually
             engaging user interfaces, and creating seamless user experiences.
           </Text>
