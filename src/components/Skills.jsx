@@ -7,6 +7,7 @@ import {
   GitOriginal,
   TailwindcssOriginal,
   GithubOriginal,
+  TypescriptOriginal,
 } from "devicons-react";
 import { LuCode } from "react-icons/lu";
 import { Tooltip } from "./ui/tooltip";
@@ -14,6 +15,7 @@ import { Tooltip } from "./ui/tooltip";
 function Skills() {
   const skills = [
     "javascript",
+    "typescript",
     "react",
     "redux",
     "css",
@@ -78,6 +80,11 @@ function Skills() {
             {skill === "javascript" && (
               <Tooltip content="Javascript">
                 <JavascriptOriginal size={iconSize} />
+              </Tooltip>
+            )}
+            {skill === "typescript" && (
+              <Tooltip content="Typescript">
+                <TypescriptOriginal size={iconSize} />
               </Tooltip>
             )}
             {skill === "react" && (

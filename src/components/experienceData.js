@@ -1,6 +1,19 @@
 const myExperience = [
+  // {
+  //   id: 1,
+
+  //   company: "Soranix",
+  //   location: "Abuja, Nigeria",
+  //   position: "Frontend Developer",
+  //   mode: "Remote",
+  //   startDate: "May 2025",
+  //   endDate: "Present",
+  //   descOne: "",
+  //   descTwo: "",
+  //   logo: "",
+  // },
   {
-    id: 1,
+    id: 2,
 
     company: "Zerotech Agency Ltd/Vibes Meet LLC",
     location: "Bronx, New York",
@@ -15,7 +28,7 @@ const myExperience = [
     logo: "./vibes.png",
   },
   {
-    id: 2,
+    id: 3,
     company: "InternPulse",
     location: "Lagos, Nigeria",
     position: "Frontend Developer",
@@ -31,7 +44,7 @@ const myExperience = [
     logo: "./internPulse.png",
   },
   {
-    id: 3,
+    id: 4,
     company: "LeverPay.io",
     location: "Lagos, Nigeria",
     position: "Frontend Developer",
