@@ -1,4 +1,4 @@
-import { Box, Icon, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Grid, Icon, Text, useBreakpointValue } from "@chakra-ui/react";
 import {
   JavascriptOriginal,
   ReactOriginal,
@@ -24,7 +24,7 @@ function Skills() {
     "github",
   ];
 
-  const iconSize = useBreakpointValue({ base: "50px", md: "50px", xl: "40px" });
+  const iconSize = useBreakpointValue({ base: "50px", md: "50px", xl: "60" });
 
   return (
     <Box
@@ -55,15 +55,17 @@ function Skills() {
         </Text>
       </Box>
 
-      <Box
-        w={{ base: "full", md: "full", xl: "fit-content" }}
-        bg={{ base: "white", xl: "gray.300/30" }}
+      <Grid
+        w={{ base: "full", md: "full", xl: "full" }}
+        alignSelf={{ base: "center", md: "center", xl: "center" }}
+        templateColumns={{
+          base: "repeat(2, 1fr)",
+          md: "repeat(3, 1fr)",
+          xl: "repeat(4, 1fr)",
+        }}
         mt={2}
-        px={{ base: 0, xl: 4 }}
         py={4}
         gap={4}
-        display="flex"
-        flexDirection={{ base: "row", md: "row", xl: "row" }}
         alignItems={{ base: "center" }}
         overflowX={{ base: "scroll" }}
         rounded="xl"
@@ -71,55 +73,193 @@ function Skills() {
         {skills.map((skill, index) => (
           <Box
             key={index}
-            transition="all 0.2s ease-in-out"
-            _hover={{
-              transform: "scale(1.5)",
-            }}
+            display="flex"
+            w="full"
+            h={{ base: "fit-content", md: "150px", xl: "150px" }}
+            px={4}
+            py={4}
+            border="1px solid"
+            borderColor="gray.500"
+            justifyContent="center"
+            borderRadius="xl"
+            // transition="all 0.2s ease-in-out"
+            // _hover={{
+            //   transform: "scale(1.5)",
+            //   border: "0px solid #000000",
+            // }}
             cursor="pointer"
           >
             {skill === "javascript" && (
-              <Tooltip content="Javascript">
-                <JavascriptOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="Javascript">
+                  <JavascriptOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  JavaScript
+                </Text>
+              </Box>
             )}
             {skill === "typescript" && (
-              <Tooltip content="Typescript">
-                <TypescriptOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="Typescript">
+                  <TypescriptOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  TypeScript
+                </Text>
+              </Box>
             )}
             {skill === "react" && (
-              <Tooltip content="React">
-                <ReactOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="React">
+                  <ReactOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  React JS
+                </Text>
+              </Box>
             )}
             {skill === "redux" && (
-              <Tooltip content="Redux">
-                <ReduxOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="Redux">
+                  <ReduxOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  Redux
+                </Text>
+              </Box>
             )}
             {skill === "css" && (
-              <Tooltip content="CSS">
-                <Css3Original size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="CSS">
+                  <Css3Original size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  CSS
+                </Text>
+              </Box>
             )}
             {skill === "tailwind" && (
-              <Tooltip content="Tailwind">
-                <TailwindcssOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="Tailwind">
+                  <TailwindcssOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  Tailwind
+                </Text>
+              </Box>
             )}
             {skill === "git" && (
-              <Tooltip content="GIT">
-                <GitOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="GIT">
+                  <GitOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  GIT
+                </Text>
+              </Box>
             )}
             {skill === "github" && (
-              <Tooltip content="GitHub">
-                <GithubOriginal size={iconSize} />
-              </Tooltip>
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="GitHub">
+                  <GithubOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                >
+                  GitHub
+                </Text>
+              </Box>
             )}
           </Box>
         ))}
-      </Box>
+      </Grid>
     </Box>
   );
 }
