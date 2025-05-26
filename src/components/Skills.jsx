@@ -105,6 +105,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   JavaScript
                 </Text>
@@ -126,6 +127,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   TypeScript
                 </Text>
@@ -147,6 +149,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   React JS
                 </Text>
@@ -168,6 +171,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   Redux
                 </Text>
@@ -189,6 +193,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   CSS
                 </Text>
@@ -210,6 +215,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   Tailwind
                 </Text>
@@ -231,6 +237,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   GIT
                 </Text>
@@ -252,6 +259,7 @@ function Skills() {
                   textAlign="center"
                   fontWeight="bold"
                   fontSize="lg"
+                  fontFamily="Montserrat"
                 >
                   GitHub
                 </Text>
