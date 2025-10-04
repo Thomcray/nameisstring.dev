@@ -10,6 +10,8 @@ import {
   TypescriptOriginal,
   NextjsOriginal,
   SupabaseOriginal,
+  MongodbOriginal,
+  ExpressOriginal,
 } from "devicons-react";
 import { LuCode } from "react-icons/lu";
 import { Tooltip } from "./ui/tooltip";
@@ -26,6 +28,8 @@ function Skills() {
     "git",
     "github",
     "supabase",
+    "mongoDB",
+    "express",
   ];
 
   const iconSize = useBreakpointValue({ base: "50px", md: "50px", xl: "60" });
@@ -65,7 +69,7 @@ function Skills() {
         templateColumns={{
           base: "repeat(2, 1fr)",
           md: "repeat(3, 1fr)",
-          xl: "repeat(4, 1fr)",
+          xl: "repeat(6, 1fr)",
         }}
         mt={2}
         py={4}
@@ -167,7 +171,7 @@ function Skills() {
                 alignItems="center"
                 spaceY="2"
               >
-                <Tooltip content="React">
+                <Tooltip content="NextJS">
                   <NextjsOriginal size={iconSize} />
                 </Tooltip>
                 <Text
@@ -299,7 +303,7 @@ function Skills() {
                 alignItems="center"
                 spaceY="2"
               >
-                <Tooltip content="GIT">
+                <Tooltip content="Supabase">
                   <SupabaseOriginal size={iconSize} />
                 </Tooltip>
                 <Text
@@ -310,6 +314,50 @@ function Skills() {
                   fontFamily="Montserrat"
                 >
                   Supabase
+                </Text>
+              </Box>
+            )}
+            {skill === "mongoDB" && (
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="MongoDB">
+                  <MongodbOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                  fontFamily="Montserrat"
+                >
+                  MongoBD
+                </Text>
+              </Box>
+            )}
+            {skill === "express" && (
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="Express">
+                  <ExpressOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                  fontFamily="Montserrat"
+                >
+                  Express
                 </Text>
               </Box>
             )}
