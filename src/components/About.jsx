@@ -128,9 +128,10 @@ function About() {
             fontWeight="regular"
             cursor="pointer"
           >
-            Hi, I'm Terna Nanev, a Frontend Developer with over 3 years of
-            experience working with JavaScript and React.js. I'm passionate about
-            building high-performance, scalable web applications, visually
+            Hi, I'm Terna Nanev &mdash; a Software Developer with 5 years of
+            experience. I specialize is JavaScript, TypeScript, React.js, and
+            currently work with Next.js, MongoDB, and Express . I'm passionate
+            about building high-performance, scalable web applications, visually
             engaging user interfaces, and creating seamless user experiences.
           </Text>
         </Box>
