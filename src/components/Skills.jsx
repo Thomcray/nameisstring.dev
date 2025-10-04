@@ -8,6 +8,8 @@ import {
   TailwindcssOriginal,
   GithubOriginal,
   TypescriptOriginal,
+  NextjsOriginal,
+  SupabaseOriginal,
 } from "devicons-react";
 import { LuCode } from "react-icons/lu";
 import { Tooltip } from "./ui/tooltip";
@@ -17,11 +19,13 @@ function Skills() {
     "javascript",
     "typescript",
     "react",
+    "nextjs",
     "redux",
     "css",
     "tailwind",
     "git",
     "github",
+    "supabase",
   ];
 
   const iconSize = useBreakpointValue({ base: "50px", md: "50px", xl: "60" });
@@ -155,6 +159,28 @@ function Skills() {
                 </Text>
               </Box>
             )}
+            {skill === "nextjs" && (
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="React">
+                  <NextjsOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                  fontFamily="Montserrat"
+                >
+                  Next JS
+                </Text>
+              </Box>
+            )}
             {skill === "redux" && (
               <Box
                 display="flex"
@@ -262,6 +288,28 @@ function Skills() {
                   fontFamily="Montserrat"
                 >
                   GitHub
+                </Text>
+              </Box>
+            )}
+            {skill === "supabase" && (
+              <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+                alignItems="center"
+                spaceY="2"
+              >
+                <Tooltip content="GIT">
+                  <SupabaseOriginal size={iconSize} />
+                </Tooltip>
+                <Text
+                  color="blackAlpha.800"
+                  textAlign="center"
+                  fontWeight="bold"
+                  fontSize="lg"
+                  fontFamily="Montserrat"
+                >
+                  Supabase
                 </Text>
               </Box>
             )}
