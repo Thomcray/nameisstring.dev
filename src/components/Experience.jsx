@@ -57,6 +57,8 @@ function Experience() {
             descOne,
             descTwo,
             descThree,
+            descFour,
+            descFive,
             logo,
           }) => (
             <Timeline.Item key={id}>
@@ -125,9 +127,25 @@ function Experience() {
                 >
                   {descThree}
                 </Text>
+                <Text
+                  textStyle="sm"
+                  fontFamily="Poppins"
+                  fontWeight="regular"
+                  color="blackAlpha.800"
+                >
+                  {descFour}
+                </Text>
+                <Text
+                  textStyle="sm"
+                  fontFamily="Poppins"
+                  fontWeight="regular"
+                  color="blackAlpha.800"
+                >
+                  {descFive}
+                </Text>
               </Timeline.Content>
             </Timeline.Item>
-          )
+          ),
         )}
       </Timeline.Root>
     </Box>
