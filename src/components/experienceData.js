@@ -18,7 +18,7 @@ const myExperience = [
       "Contribute to code quality by writing clean, maintainable components, participating in code reviews, and helping keep the codebase consistent across projects.",
     descFive:
       "Collaborate closely with the team lead to improve workflow and ship features efficiently.",
-    logo: "",
+    logo: "/sparkstrand_logo.jpg",
   },
   {
     id: 2,
