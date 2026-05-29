@@ -129,7 +129,7 @@ function About() {
             cursor="pointer"
           >
             Hi, I'm Terna Nanev &mdash; a Software Developer with 5 years of
-            experience. I specialize is JavaScript, TypeScript, React.js, and
+            experience. I specialize in JavaScript, TypeScript, React.js, and
             currently work with Next.js, MongoDB, and Express . I'm passionate
             about building high-performance, scalable web applications, visually
             engaging user interfaces, and creating seamless user experiences.
