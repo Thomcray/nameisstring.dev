@@ -5,7 +5,13 @@ import pedMerchantScreenshot from "@/assets/pedmonieMerchant.png";
 
 function Projects() {
   const payUrl = "https://pay4me-ruddy.vercel.app/home";
+  const fourthviewUrl = "https://fourthview-trading.vercel.app/";
   const projects = [
+    {
+      name: "Fourthview",
+      screenshot: `https://api.microlink.io/?url=${fourthviewUrl}&screenshot=true&embed=screenshot.url`,
+      link: fourthviewUrl,
+    },
     {
       name: "Pay4Me",
       screenshot: `https://api.microlink.io/?url=${payUrl}&screenshot=true&embed=screenshot.url`,
