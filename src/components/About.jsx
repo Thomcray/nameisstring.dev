@@ -117,7 +117,7 @@ function About() {
             fontWeight="bold"
             cursor="pointer"
           >
-            Frontend Developer
+            Software Developer
           </Text>
           <Text
             w="full"
