@@ -1,17 +1,25 @@
 const myExperience = [
-  // {
-  //   id: 1,
+  {
+    id: 1,
 
-  //   company: "Soranix",
-  //   location: "Abuja, Nigeria",
-  //   position: "Frontend Developer",
-  //   mode: "Remote",
-  //   startDate: "May 2025",
-  //   endDate: "Present",
-  //   descOne: "",
-  //   descTwo: "",
-  //   logo: "",
-  // },
+    company: "Spark Strand",
+    location: "London, United Kingdom",
+    position: "Software Developer",
+    mode: "Remote",
+    startDate: "November 2025",
+    endDate: "Present",
+    descOne:
+      "Develop and optimize React/Next.js features across multiple company projects, ensuring high performance and smooth user experience.",
+    descTwo:
+      "Improved authentication reliability by a secure token refresh mechanism to prevent JWT expiration error and reduce session failures.",
+    descThree:
+      "Integrated Gemini AI into the company’s marketing platform to support peer and AI based article review, automating content quality checks, readability analysis, and improvement suggestions using supabase edge functions.",
+    descFour:
+      "Contribute to code quality by writing clean, maintainable components, participating in code reviews, and helping keep the codebase consistent across projects.",
+    descFive:
+      "Collaborate closely with the team lead to improve workflow and ship features efficiently.",
+    logo: "",
+  },
   {
     id: 2,
 
